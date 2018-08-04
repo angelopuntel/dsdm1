@@ -1,0 +1,132 @@
+ @media only screen and (max-width: 600px) {
+  #nav{
+  background-color: red;
+  box-shadow: 0px 0px 80px 0px;
+
+  color: white; 
+
+  width: 100%;
+  height: 10%;
+
+}
+
+}
+
+/*--------------------------------------------*/
+
+ .txt-logo{
+  display: inline-block;
+  font-size: 200%;
+  font-family: "Arial Black";
+  margin: 0% 0% 0% 1%;
+  padding: 1% 0% 1% 0%;
+
+}
+.img-logo{
+  width: 6.4%;
+  float: left;
+  margin: 0% 0% 1% 0%;
+
+}
+#nav{
+  background-color: #363636;
+  box-shadow: 0px 0px 80px 0px;
+
+  color: white;
+
+  width: 100%;
+  height: 10%;
+
+}
+.txta:link, .txta:visited {
+    float: right;
+
+    background-color: #363636;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    font-family: "Arial Black";
+    
+    width: 5%;
+    font-size: 86%;
+
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    
+    -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 3s;
+}
+.txta:hover, .txta:active {
+    background-color: white;
+    color: #363636;
+    
+}
+.tit{
+  text-align: center;
+  font-size: 280%;
+  margin-top: 0px;
+
+}
+.txt-tit{
+  text-align: center;
+  font-size: 150%;
+  font-family:"Courier New";
+
+}
+/*--------------------------------------->*/
+body{
+  margin: 0px;
+  background: linear-gradient(to bottom, white, #E8E8E8, #CFCFCF, #B5B5B5);
+}
+/*------------------------------------------------->*/  
+h1{
+  font-family: "Impact";
+  font-size:230%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+h2{
+  font-family: "Impact";
+  font-size:200%;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.txt-histo{
+  display: block;
+  font-size:120%;
+  text-align: justify;
+}
+.img-histo{
+  display: inline-block;
+  width: 20%;
+  height: 80%;
+  float: center;
+  margin-top: 1%;
+  margin-left: 20%;
+  border-radius: 5px;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+
+
+}
+.img-histo:hover{
+  -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+
+}  
+#container{
+  color:#000;
+  margin: 0% 12% 0% 12%;
+  padding: 1% 2% 1% 2%;
+  border-right:6px solid #4F4F4F;
+  border-left:6px solid #4F4F4F;
+  
+
+}
